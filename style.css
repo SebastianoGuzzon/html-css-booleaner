@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+}
+body{
+  text-align: left;
+}
+header{
+  background-image: url(img/pattern.png);
+  background-color: #0099ff;
+  width: 1000px;
+  text-align: left;
+}
+header img{
+  background-image: cover;
+  height: 80px;
+  width: 200px;
+}
+.container{
+  margin-top: 15px;
+  margin-left: 0%;
+}
