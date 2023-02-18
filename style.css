@@ -1,21 +1,83 @@
+/* General */
 *{
   margin: 0;
 }
-body{
-  text-align: left;
+img{
+  max-width: 100%;
 }
+
+.highlight{
+  background-color: yellow;
+}
+/*  HEADER */
 header{
-  background-image: url(img/pattern.png);
+  background-image:url('./img/pattern.png');
   background-color: #0099ff;
-  width: 1000px;
-  text-align: left;
+  background-size: 40%;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 20px;
 }
-header img{
-  background-image: cover;
-  height: 80px;
-  width: 200px;
+header .logo{
+width: 200px;
 }
-.container{
-  margin-top: 15px;
-  margin-left: 0%;
+/* MAIN*/
+main, footer{
+  padding: 20px;
+}
+main .conteiner{
+font-size: .9rem;
+color:#4ea0ff;
+margin-bottom: ;
+}
+main .container p{
+padding-bottom: 5px;
+}
+main .container .name{
+color: #4ea0ff
+}
+main .container .date{
+  font-size: .8rem;
+}
+
+footer h4{
+  color: grey;
+}
+footer .rex{
+  background-color: red;
+  color: white;
+  padding: 20px;
+  width: 250px;
+  height: 150px;
+  margin-bottom.: 20px;
+}
+
+.rex {
+background-image: url('./img/monitor.jpg');
+}
+
+.graph {
+background-image: url('./img/graph.jpg');
+}
+
+.scritta-trasparente{
+  opacity: 0.5;
+}
+.boolean {
+  color: #33C6FF;
+}
+.refer {
+font-size: 5px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.offer {
+  font-size: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.elephant {
+  background-color: yellow;
+}
+.evo {
+  background-color: yellow;
 }
